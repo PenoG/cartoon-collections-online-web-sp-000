@@ -13,7 +13,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(assorted_words)
-  return true if assorted_words.length < 4
+  planeteer_calls.any? { |call| call.length > 4 }
 end
 
 def find_the_cheese
