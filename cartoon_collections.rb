@@ -4,8 +4,10 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet
-  
+def summon_captain_planet(planeteer_calls)
+  new = []
+  planeteer_calls.map do |index|
+    new << "#{index.}!"
 end
 
 def long_planeteer_calls
