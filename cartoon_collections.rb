@@ -1,3 +1,5 @@
+require_relative ".../cartoon_collections"
+
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index {|i, num|}
     puts "#{num} #{i}"
